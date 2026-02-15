@@ -151,7 +151,7 @@
 # **Default: nil**
 
 ```lua
-Example: Load = "https://raw.githubusercontent.com/USER/REPO/main/script.lua"
+Example: Load = "https://raw.githubusercontent.com/Legitxwx/Notification/refs/heads/main/Win.lua"
 ```
 
 ## 15. Queue System
@@ -166,7 +166,7 @@ Example: Load = "https://raw.githubusercontent.com/USER/REPO/main/script.lua"
 # **Minimal**
 
 ```lua
-local Notification = loadstring(game:HttpGet("YOUR_GITHUB_RAW_URL"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Legitxwx/Notification/refs/heads/main/Win.lua"))()
 Notification:Notify({
     Title = "Hello",
     Desc = "This is a clean notification",
@@ -177,6 +177,8 @@ Notification:Notify({
 ## Full Feature
 
 ```lua
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Legitxwx/Notification/refs/heads/main/Win.lua"))()
+
 Notification:Notify({
     Title = "Windows Defender",
     Desc = "Trojan.Win32.Injector detected in system files.\nImmediate action required",
